@@ -1,0 +1,123 @@
+.navbar-brand {
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.version {
+	font-size: 1rem;
+}
+
+#logo {
+	width: 100px;
+}
+
+#virus-icon {
+	width: 75px;
+}
+
+#showcase {
+	/* height: 70vh; */
+}
+
+/* body {
+	overflow: scroll !important;
+} */
+
+/* #thead {
+	position: sticky;
+	top: 0;
+} */
+
+#world {
+	width: 30px;
+	margin-left: 1.5rem;
+}
+.world-column {
+	display: flex;
+}
+.world-column div {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.flag {
+	height: 20px;
+	margin-left: 1.5rem;
+}
+.country-column {
+	display: flex;
+}
+.country-column div {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.current {
+	background: #343a40;
+	color: #f4f4f4;
+}
+
+#world-icon {
+	width: 75px;
+}
+
+.nav-link:focus,
+.nav-link:active:focus,
+.nav-link.active:focus,
+.nav-link.active:hover,
+.nav-link:active:hover {
+	outline: none !important;
+	box-shadow: none !important;
+}
+button {
+	border: 0px !important;
+}
+
+.thead-dark th {
+	position: sticky;
+	top: 0;
+}
+
+.case-icon {
+	font-size: 2.75rem;
+}
+
+.case-num {
+	font-size: 2.25rem;
+}
+
+#loader {
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle {
+	width: 15px;
+	height: 15px;
+	background: #333;
+	border-radius: 50%;
+	margin: 5px;
+	animation: bounce 0.5s ease-in infinite;
+}
+.circle:nth-of-type(2) {
+	animation-delay: 0.1s;
+}
+.circle:nth-of-type(3) {
+	animation-delay: 0.2s;
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+}
