@@ -896,7 +896,7 @@ class UI {
 		}
 		// convert to standard time
 		if (hh > 12) {
-			// hh -= 12;
+			hh -= 12;
 		}
 		if (hh == 0) {
 			hh = 12;
